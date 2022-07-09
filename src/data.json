@@ -1,0 +1,60 @@
+{
+    "Introduction": {
+        "Name": "Shreyas",
+        "Role": "Frontend Dev",
+        "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        "ResumeLink": "https://www.google.com",
+        "ImageLink": "https://media.istockphoto.com/photos/the-dark-knight-picture-id458603411?k=20&m=458603411&s=612x612&w=0&h=FPUeTxLiNyUeQzxCphesL2QaL6yngA3v43d-YQ-3Brg=",
+        "LinkedInLink": "https://www.google.com",
+        "EmailLink": "https://www.google.com",
+        "GitHubLink": "https://www.google.com"
+    },
+    "Education": [
+        {
+            "College": "Dayananda Sagar College Of Engineering",
+            "Field": "Computer Science",
+            "Duration": "2019-2023"
+        },
+        {
+            "College": "Dayananda Sagar College Of Engineering",
+            "Field": "Computer Science",
+            "Duration": "2019-2023"
+        }
+    ],
+    "Skills": [
+        "JavaScript",
+        "React",
+        "CSS",
+        "Java",
+        "C",
+        "C++",
+        "NodeJS",
+        "React Native"
+    ],
+    "Experience": [
+        {
+            "CompanyName": "Saraverse",
+            "Role": "Frontend Intern",
+            "Duration": "Aug 2022 - Nov 2022",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "CompanyName": "Saraverse",
+            "Role": "Frontend Intern",
+            "Duration": "Aug 2022 - Nov 2022",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    ],
+    "Projects": [
+        {
+            "Title": "Anubix",
+            "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "Title": "Anubix",
+            "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    ]
+}

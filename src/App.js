@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Header from './Sections/Header'
+import data from './data.json'
+import Education from './Sections/Education'
+import Skills from './Sections/Skills'
+import Experience from './Sections/Experience'
+import Projects from './Sections/Projects'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const SampleComponent = () => {
+    var Skills = data.Skills
+    return (
+      Skills.map((skill, index) => 
+          <h1 key={index}>{skill}</h1>
+      )
+    )
+}
+const App = () => {
+    var collegeName = data.Education[0].College
+    console.log('College Name: ', collegeName)
+    return (
+        <>
+            <SampleComponent />
+            <Header />
+            <Education />
+            <Skills />
+            <Experience />
+            <Projects />
+        </>
+    )
 }
 
-export default App;
+export default App
