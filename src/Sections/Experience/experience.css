@@ -1,0 +1,112 @@
+.exp-section {
+    max-width: 1000px;
+    color: white;
+    margin: 2rem auto;
+    padding: 20px;
+    position: relative;
+    
+    
+
+}
+
+.triangle {
+    position: absolute;
+    height: 400px;
+}
+.triangle:first-child{
+    top: 15%;
+    right: -10%;
+}
+.triangle:nth-child(2){
+    bottom:-10rem;
+    left:-10%;
+    transform: rotate(-40deg);
+}
+
+.exp-section-heading {
+    font-size: 2rem;
+}
+
+.exp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.exp-box {
+    padding: 2rem;
+    width: 100%;
+    margin: 2.5rem 0 0;
+    /* background-color: rgba(255, 255, 255, 0.351); */
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.363) 0%, rgba(255, 255, 255, 0.363) 35%, rgba(108, 105, 105, 0.363) 100%);
+    backdrop-filter: blur(10px);
+    box-shadow: #000;
+    box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: -2px 9px 48px 0px rgba(67, 66, 66, 0.68);
+    -moz-box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68);
+    border-radius: 10px;
+}
+
+.exp-head {
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* justify-items: space-between; */
+    align-items: baseline;
+}
+
+.exp-box-heading {
+    font-size: 1.8rem;
+    margin: 0 0 2rem;
+}
+
+.heading {
+    font-weight: 500;
+}
+
+.exp-heading-date {
+    font-size:1.2rem;
+    font-weight:300;
+}
+
+.exp-box-desc {
+    font-size: 1.2rem;
+    padding:1rem 5rem 1rem 0;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* ============================== RESPONSIVE =========================== */
+@media screen and (max-width:600px) {
+    .exp-section{
+        padding:0 1.5rem;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .triangle:first-child{
+        right:-80%;
+        top:10%;
+    }
+    .triangle:nth-child(2){
+        left:-50%;
+    }
+    .exp-head{
+        flex-direction: column;
+        align-items:flex-start;
+        margin-bottom: 2rem;
+    }
+    
+    .exp-box-heading{
+        margin: 0 0 2px;
+    }
+    .exp-box-desc{
+        padding:0;
+        font-weight: 300;
+    }
+}
