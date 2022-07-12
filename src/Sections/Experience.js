@@ -8,7 +8,7 @@ const Experience = () => {
   const {Experience} = data;
   return (
     Experience&&
-    <>
+    <div className='exp-section-wrapper'>
       <section className='exp-section'>
         <img src={triangle} className = "triangle" alt="triangle" />
         <img src={triangle} className = "triangle" alt="triangle" />
@@ -25,7 +25,7 @@ const Experience = () => {
         </div>
 
       </section>
-    </>
+    </div>
   )
 }
 
