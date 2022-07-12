@@ -23,9 +23,13 @@ padding-bottom:5rem;
     right:-10%;
 }
 .triangle:nth-child(2){
-    bottom:-10rem;
+    bottom:1rem;
     left:-10%;
-    transform: rotate(-40deg);
+    transform: rotate(-50deg);
+}
+
+.adjust-triangle{
+    top:10rem;
 }
 
 .exp-section-heading {
