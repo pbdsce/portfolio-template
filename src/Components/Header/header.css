@@ -11,7 +11,7 @@ a{
     margin-top: 60px;
 }
 .header-section{
-    max-width: 800px;
+    max-width: 900px;
     width: 100%;  
     position: relative;  
     padding:0 2rem 2rem;
@@ -64,6 +64,8 @@ a{
     font-size:3rem;
 }
 
+
+
 .header-intro-role{
     margin:1rem 0;
     display: inline-block;
@@ -75,6 +77,10 @@ a{
     font-family: 'Philosopher',sans-serif;
     max-width: 400px;
     margin-bottom: 1rem ;
+}
+
+.header-intro-desc p{
+    font-size:1.2rem;
 }
 
 .header-intro-resume{
@@ -120,7 +126,11 @@ a{
     align-items: center;
 }
 .social-links{
+    transition: all 120ms;
     height: 30px;
+}
+.social-links:hover{
+    transform: scale(1.1);
 }
 
 /* ==================== RESPONSIVE ++++++++++++++++++++++ */

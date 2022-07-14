@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react';
+import React, {useState} from 'react';
 import './Navbar/navbar.css';
 import menu from '../assets/menu.png'
 import close from '../assets/close.png'
@@ -18,7 +18,7 @@ const Navbar = ({name}) => {
     
     <nav className={`nav`}>
         <div className="nav-container">
-            <a href="#"><h1 className='nav-brand'>{name}</h1></a>
+            <a href="/"><h1 className='nav-brand'>{name}</h1></a>
             <div className={`nav-items ${showMenu}`}>
                 <a href="#projects" onClick = {handleMenu} className='nav-link'>Projects</a>
                 <a href="#experience" onClick = {handleMenu} className='nav-link'>Experience</a>

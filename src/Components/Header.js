@@ -30,13 +30,13 @@ const Header = () => {
                             <h1 className='header-intro-heading-title'>{Introduction.Name}</h1>
                         </div>
 
-                        <a className='header-intro-role'>{Introduction.Role}</a>
+                        <a href ='/' className='header-intro-role'>{Introduction.Role}</a>
 
                         <div className="header-intro-desc">
                             <p>{Introduction.Bio}</p>
                         </div>
 
-                        <a target="_blank" href={Introduction.ResumeLink} download className='header-intro-resume'>Resume</a>
+                        <a target="_blank" rel = "noreferrer" href={Introduction.ResumeLink}  download className='header-intro-resume'>Resume</a>
 
                     </div>
 

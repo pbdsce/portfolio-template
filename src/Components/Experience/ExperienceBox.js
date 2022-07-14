@@ -6,7 +6,7 @@ const ExperienceBox = ({designation,company,description,duration}) => {
 
             <div className='flex exp-head'>
 
-                <div className='exp-box-heading'><span className='heading'><i>{designation}&nbsp;</i></span>at<span>&nbsp;{company}</span></div>
+                <div className='exp-box-heading'><span className='heading'><i>{designation}&nbsp;</i></span>at<span className='heading-company-name'>&nbsp;{company}</span></div>
                 <p className='exp-heading-date'>{duration}</p>
             </div>
 

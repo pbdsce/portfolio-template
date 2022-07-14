@@ -5,7 +5,7 @@ padding-bottom:5rem;
 }
 
 .exp-section {
-    max-width: 800px;
+    max-width: 900px;
     width: 100%;
     color: white;
     margin:2rem auto;
@@ -68,16 +68,21 @@ padding-bottom:5rem;
 }
 
 .exp-box-heading {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 0 0 1rem;
+    font-weight: 300;
 }
 
 .heading {
     font-weight: 500;
 }
 
+.heading-company-name{
+    font-weight: 400;
+}
+
 .exp-heading-date {
-    font-size:1.2rem;
+    font-size:1.1rem;
     font-weight:300;
 }
 
