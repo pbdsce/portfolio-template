@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.educationcontainer {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoobj {
+    height: 5em;
+    width: 5em;
+    border-radius: 100%;
+    background: linear-gradient(40deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.444));
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoanddet {
+    display: flex;
+    align-items: center;
+}
+
+.instdet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 1.5em;
+    font-family: 'Nunito', sans-serif;
+}
+
+.instname {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+.instcourse {
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
+
+.insttenure {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 425px){
+    .educationcontainer {
+        width: 90%;
+    }
+
+    .logoobj {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .instdet {
+        margin: 0 0.5rem;
+        margin-right: 0.3;
+    }
+    .instname {
+        font-size:smaller;
+    }
+    .instcourse {
+        font-size: small;
+    }
+
+    .insttenure {
+        font-size: 8px;
+        margin-right: 0.5rem;
+    }
+
+    .logoobj img {
+        height: 90%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width:426px){
+    .instname {
+        font-size: larger;
+    }
+
+}
+@media only screen and (max-width: 375px){
+    .instname {
+        font-size: x-small;
+    }
+    .insttenure{
+        font-size: 5px;
+    }
+    .instcourse{
+        font-size: x-small;
+    }
+
+}
