@@ -16,7 +16,7 @@ padding-bottom:5rem;
 
 .triangle {
     position: absolute;
-    height: 400px;
+    height: 350px;
 }
 .triangle:first-child{
     top: 15%;
@@ -34,6 +34,7 @@ padding-bottom:5rem;
 
 .exp-section-heading {
     font-size: 2rem;
+    font-weight: 500;
 }
 
 .exp-container {
@@ -56,7 +57,7 @@ padding-bottom:5rem;
     box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68);
     -webkit-box-shadow: -2px 9px 48px 0px rgba(67, 66, 66, 0.68);
     -moz-box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .exp-head {
@@ -93,7 +94,7 @@ padding-bottom:5rem;
 /* ============================== RESPONSIVE =========================== */
 @media screen and (max-width:600px) {
     .exp-section{
-        padding:0 1.5rem;
+        padding:0 2rem;
         width: 100%;
     }
     .triangle:first-child{

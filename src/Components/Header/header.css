@@ -6,22 +6,25 @@ a{
 .header-wrapper{
     width: 100%;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-top: 60px;
 }
 .header-section{
     max-width: 800px;
     width: 100%;  
     position: relative;  
-    padding:2rem;
-    margin:2rem auto;
+    padding:0 2rem 2rem;
+    margin:0 auto 2rem;
 }
 
 .eclipse{
     position: absolute;  
 }
 .eclipse:first-child{
-    top:20%;
-    height: 100px;
-    right: 5%;
+    top:7%;
+    height: 120px;
+    right: 7%;
 }
 .eclipse:nth-child(2){
     bottom:10%;
@@ -39,10 +42,7 @@ a{
     margin: 2.5rem auto;
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.363) 0%, rgba(255, 255, 255, 0.363) 35%, rgba(108, 105, 105, 0.363) 100%);
-    backdrop-filter: blur(10px);
-    /* box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68);
-    -webkit-box-shadow: -2px 9px 48px 0px rgba(67, 66, 66, 0.68);
-    -moz-box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68); */
+    backdrop-filter: blur(17px);
     border-radius: 30px;
 }
 
