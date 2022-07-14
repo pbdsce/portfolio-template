@@ -22,14 +22,49 @@
         }
     ],
     "Skills": [
-        "JavaScript",
-        "React",
-        "CSS",
-        "Java",
-        "C",
-        "C++",
-        "NodeJS",
-        "React Native"
+        {
+            "skill":"Python",
+            "image":"./assets/pythonLogo.jpg"
+        },
+        {
+            "skill":"C",
+            "image":"./assets/cLogo.jpg"
+        },
+        
+        {
+            "skill":"Javascript",
+            "image": "./assets/jsLogo.png"
+        },
+        {
+            "skill":"Java",
+            "image": "./assests/javaLogo.jpg"
+        },
+        {
+            "skill":"Python",
+            "image":"./assets/pythonLogo.jpg"
+        },
+        {
+            "skill":"C",
+            "image":"./assets/cLogo.jpg"
+        },
+        {
+            "skill":"Javascript",
+            "image": "./assets/jsLogo.png"
+        },
+        {
+            "skill":"Java",
+            "image": "./assests/javaLogo.jpg"
+        },
+        {
+            "skill":"Python",
+            "image":"./assets/pythonLogo.jpg"
+        },
+        {
+            "skill":"C",
+            "image":"./assets/cLogo.jpg"
+        }
+       
+      
     ],
     "Experience": [
         {
