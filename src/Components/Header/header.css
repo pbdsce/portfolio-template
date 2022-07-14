@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+a{
+    color:inherit;
+}
+.header-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+.header-section{
+    max-width: 800px;
+    width: 100%;  
+    position: relative;  
+    padding:2rem;
+    margin:2rem auto;
+}
+
+.eclipse{
+    position: absolute;  
+}
+.eclipse:first-child{
+    top:20%;
+    height: 100px;
+    right: 5%;
+}
+.eclipse:nth-child(2){
+    bottom:10%;
+    left:-2%;
+}
+
+.header-container{
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:3rem;
+    padding:3rem 4rem;
+    width: 100%;
+    margin: 2.5rem auto;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.363) 0%, rgba(255, 255, 255, 0.363) 35%, rgba(108, 105, 105, 0.363) 100%);
+    backdrop-filter: blur(10px);
+    /* box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: -2px 9px 48px 0px rgba(67, 66, 66, 0.68);
+    -moz-box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68); */
+    border-radius: 30px;
+}
+
+
+
+.header-intro{
+    color:#fff;
+}
+
+.header-intro-heading{
+    font-family: 'Philosopher', sans-serif;
+    line-height: 2.5rem;
+}
+
+.header-intro-heading-subtitle{
+    font-size:1rem;
+}
+.header-intro-heading-title{
+    font-size:3rem;
+}
+
+.header-intro-role{
+    margin:1rem 0;
+    display: inline-block;
+    border-radius:20px;
+    padding:.3rem .6rem;
+    background: rgba(85, 84, 84, 0.55) ;
+}
+.header-intro-desc{
+    font-family: 'Philosopher',sans-serif;
+    max-width: 400px;
+    margin-bottom: 1rem ;
+}
+
+.header-intro-resume{
+    display: inline-block;
+    padding:.2rem .5rem;
+    font-size: .9rem;
+    border-radius: 15px;
+    border: 2px solid white;
+    -webkit-box-shadow: -2px 1px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px 3px 6px 0px rgba(0, 0, 0, 0.217);
+    transition: all 150ms ease-in;
+}
+.header-intro-resume:hover{
+    transform: translateY(-2px);
+    background-color: white;
+    color:#00BA4D;
+}
+
+.header-assets{
+    display: flex;
+    gap:1.5rem;
+    flex-direction: column;
+}
+.header-image{
+    border-radius:50%;
+    height: 220px;
+    width:220px;     
+    overflow: hidden;
+    outline:2px solid #00BA4D;
+    outline-offset:3px;
+}
+.header-image-img{
+    border-radius:50%;
+    object-fit:  cover;
+    height: 100%;
+    width: 100%;
+}
+.header-socials{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    align-items: center;
+}
+.social-links{
+    height: 30px;
+}
+
+/* ==================== RESPONSIVE ++++++++++++++++++++++ */
+@media screen and (max-width:600px) {
+    .header-container{
+        flex-direction: column-reverse;
+        gap:1rem;
+    }
+    
+}

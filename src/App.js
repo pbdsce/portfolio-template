@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './Sections/Header'
+import Header from './Components/Header'
 import data from './data.json'
 import Education from './Sections/Education'
 import Skills from './Sections/Skills'
