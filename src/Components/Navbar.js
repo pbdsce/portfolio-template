@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from 'react';
 import './Navbar/navbar.css';
 import menu from '../assets/menu.png'
+import close from '../assets/close.png'
 
 const Navbar = ({name}) => {
     const [showMenu, setShowMenu] = useState("");
@@ -24,7 +25,7 @@ const Navbar = ({name}) => {
                 <a href="#achievements" onClick = {handleMenu} className='nav-link'>Achievements</a>
             </div>
             <div className={`menu-container`}>
-                <img src={menu} alt="menu" onClick = {handleMenu} className='menu'/>
+                <img src={showMenu===""?menu:close} alt="menu" onClick = {handleMenu} className='menu'/>
             </div>
         </div>
     </nav>

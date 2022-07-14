@@ -52,7 +52,6 @@ nav{
 }
 
 .nav-link:hover::after{
-    /* transform: translateY(-2px); */
     width: 100%;
 }
 .menu-container{
@@ -79,7 +78,7 @@ nav{
         background-color: rgb(19, 19, 19);
         width: 100%;
         top:-1000%;
-        transition:all 200ms ease-in;
+        transition:all 400ms ease-out;
         left:0;
         padding:2rem;       
     }

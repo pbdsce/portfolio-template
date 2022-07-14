@@ -22,13 +22,13 @@ a{
     position: absolute;  
 }
 .eclipse:first-child{
-    top:7%;
-    height: 120px;
+    top:5%;
+    height: 140px;
     right: 7%;
 }
 .eclipse:nth-child(2){
     bottom:10%;
-    left:-2%;
+    left:-1%;
 }
 
 .header-container{
@@ -129,5 +129,11 @@ a{
         flex-direction: column-reverse;
         gap:1rem;
     }
-    
+ 
+    .eclipse:first-child{
+        right:10%;
+    }
+    .eclipse:nth-child(2){
+        bottom:8%;
+    }
 }
