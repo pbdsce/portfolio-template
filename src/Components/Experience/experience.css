@@ -5,7 +5,7 @@ padding-bottom:5rem;
 }
 
 .exp-section {
-    max-width: 850px;
+    max-width: 800px;
     width: 100%;
     color: white;
     margin:2rem auto;
@@ -60,7 +60,7 @@ padding-bottom:5rem;
 }
 
 .exp-head {
-    /* flex-wrap: wrap; */
+
     justify-content: space-between;
     /* justify-items: space-between; */
     align-items: baseline;
@@ -68,7 +68,7 @@ padding-bottom:5rem;
 
 .exp-box-heading {
     font-size: 1.8rem;
-    margin: 0 0 2rem;
+    margin: 0 0 1rem;
 }
 
 .heading {
