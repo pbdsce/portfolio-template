@@ -6,9 +6,10 @@ import Skills from './Sections/Skills'
 import Experience from './Components/Experience'
 import Projects from './Sections/Projects'
 
+
 const App = () => {
-    var collegeName = data.Education[0].College
-    console.log('College Name: ', collegeName)
+    // var collegeName = data.Education[0].College
+    // console.log('College Name: ', collegeName)
     return (
         <>
             <Header />
