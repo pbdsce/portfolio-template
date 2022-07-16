@@ -49,14 +49,13 @@ padding-bottom:5rem;
     padding: 2rem;
     width: 100%;
     margin: 2.5rem 0 0;
-    /* background-color: rgba(255, 255, 255, 0.351); */
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.363) 0%, rgba(255, 255, 255, 0.363) 35%, rgba(108, 105, 105, 0.363) 100%);
     backdrop-filter: blur(10px);
     box-shadow: #000;
-    box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68);
-    -webkit-box-shadow: -2px 9px 48px 0px rgba(67, 66, 66, 0.68);
-    -moz-box-shadow: -2px 9px 25px 0px rgba(0, 0, 0, 0.68);
+    box-shadow: -2px 9px 15px 0px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: -2px 9px 15px 0px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: -2px 9px 15px 0px rgba(0, 0, 0, 0.68);
     border-radius: 30px;
 }
 
