@@ -44,13 +44,14 @@
     background: none;
     font-style: normal;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 16px; 
     display: flex;
     align-items: center;
     padding: 8px;
     text-align: center;
     color: #FFFFFF;
+    /* margin-bottom: 10px; */
 }
 
 
@@ -114,5 +115,8 @@
     }
     .adjust-rectangle{
         top: 20rem;
+    }
+    .desc{
+        margin-bottom: 2rem;
     }
 }
