@@ -1,21 +1,20 @@
 import React from 'react'
 import data from '../data.json'
-import './Skills/Skills.css'
+import '../App.css'
+import './Skills.css'
 
 const Skills = () => {
   return (
     <>    
-   
+    
     <div className="heading">Skills</div><br/>
     <div className="box2"/>    
     <div className="box1"/>
     <div className="total">
       <div className="unit">
-        
      <TitleComponent >{Skills}</TitleComponent>
    </div>
    </div>
-   
    
     </>
   );
@@ -42,9 +41,8 @@ const Skills = () => {
       )
   
     }
-   
-    
+  
 
-export default Skills
+export  {Skills}
 export  {TitleComponent}
 
