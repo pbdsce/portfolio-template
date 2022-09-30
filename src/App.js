@@ -5,6 +5,7 @@ import Education from './Sections/Education'
 import Skills from './Sections/Skills'
 import Experience from './Components/Experience'
 import Projects from './Sections/Projects'
+import Footer from './Sections/Footer'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
             <Skills />
             <Experience />
             <Projects />
+            <Footer />
         </>
     )
 }
