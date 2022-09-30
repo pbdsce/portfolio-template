@@ -23,122 +23,117 @@
     ],
     "Skills": [
         {
-            "id":"1",
-            "skill":"Python",
-            "icon":"pythonLogo.jpg",
-            "isVisible":true
+            "id": "1",
+            "skill": "Python",
+            "icon": "pythonLogo.jpg",
+            "isVisible": true
         },
         {
-            "id":"2",
-            "skill":"C",
-            "icon":"cLogo.png",
-            "isVisible":true
+            "id": "2",
+            "skill": "C",
+            "icon": "cLogo.png",
+            "isVisible": true
+        },
 
-        },
-        
         {
-            "id":"3",
-            "skill":"Javascript",
+            "id": "3",
+            "skill": "Javascript",
             "icon": "jsLogo.png",
-            "isVisible":true
+            "isVisible": true
         },
         {
-            "id":"4",
-            "skill":"Java",
+            "id": "4",
+            "skill": "Java",
             "icon": "javaLogo.jpg",
-            "isVisible":true
+            "isVisible": true
         },
         {
-            "id":"5",
-            "skill":"C++",
-            "icon":"cppLogo.jpg",
-            "isVisible":true
+            "id": "5",
+            "skill": "C++",
+            "icon": "cppLogo.jpg",
+            "isVisible": true
         },
         {
-            "id":"6",
-            "skill":"React",
-            "icon":"reactLogo.jpg",
-            "isVisible":true
+            "id": "6",
+            "skill": "React",
+            "icon": "reactLogo.jpg",
+            "isVisible": true
+        },
 
-        },
-        
         {
-            "id":"7",
-            "skill":"Angular",
+            "id": "7",
+            "skill": "Angular",
             "icon": "angularLogo.jpg",
-            "isVisible":true
+            "isVisible": true
         },
         {
-            "id":"8",
-            "skill":"Go",
+            "id": "8",
+            "skill": "Go",
             "icon": "goLangLogo.jpg",
-            "isVisible":true
+            "isVisible": true
         },
         {
-            "id":"9",
-            "skill":"Rust",
-            "icon":"rustLogo.jpg",
-            "isVisible":true
+            "id": "9",
+            "skill": "Rust",
+            "icon": "rustLogo.jpg",
+            "isVisible": true
         },
         {
-            "id":"10",
-            "skill":"Solidity",
-            "icon":"solidityLogo.jpg",
-            "isVisible":true
+            "id": "10",
+            "skill": "Solidity",
+            "icon": "solidityLogo.jpg",
+            "isVisible": true
+        },
 
-        },
-        
         {
-            "id":"11",
-            "skill":"Node JS",
+            "id": "11",
+            "skill": "Node JS",
             "icon": "nodejsLogo.jpg",
-            "isVisible":true
+            "isVisible": true
         },
         {
-            "id":"12",
-            "skill":"Dart",
+            "id": "12",
+            "skill": "Dart",
             "icon": "dartLogo.jpg",
-            "isVisible":true
+            "isVisible": true
         },
         {
-            "id":"13",
-            "skill":"PHP",
-            "icon":"phpLogo.jpg",
-            "isVisible":true
+            "id": "13",
+            "skill": "PHP",
+            "icon": "phpLogo.jpg",
+            "isVisible": true
         },
         {
-            "id":"14",
-            "skill":"Kotlin",
-            "icon":"kotlinLogo.jpg",
-            "isVisible":true
+            "id": "14",
+            "skill": "Kotlin",
+            "icon": "kotlinLogo.jpg",
+            "isVisible": true
+        },
 
-        },
-        
         {
-            "id":"15",
-            "skill":"SQL",
+            "id": "15",
+            "skill": "SQL",
             "icon": "sqlLogo.jpg",
-            "isVisible":true
+            "isVisible": true
         },
         {
-            "id":"16",
-            "skill":"HTML",
+            "id": "16",
+            "skill": "HTML",
             "icon": "htmlLogo.jpg",
-            "isVisible":true
+            "isVisible": true
         },
         {
-            "id":"17",
-            "skill":"CSS",
+            "id": "17",
+            "skill": "CSS",
             "icon": "cssLogo.jpg",
-            "isVisible":true
+            "isVisible": true
         },
         {
-            "id":"18",
-            "skill":"Ruby",
+            "id": "18",
+            "skill": "Ruby",
             "icon": "rubyLogo.jpg",
-            "isVisible":true
+            "isVisible": true
         }
-      
     ],
     "Experience": [
         {
@@ -158,12 +153,23 @@
         {
             "Title": "Anubix",
             "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
         },
         {
             "Title": "Anubix",
             "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        },
+        {
+            "Title": "Anubix",
+            "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        },
+
+        {
+            "Title": "Anubix",
+            "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
         }
     ]
 }
