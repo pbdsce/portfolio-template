@@ -26,7 +26,7 @@ const Header = () => {
 
                     <div className="header-intro">
                         <div className="header-intro-heading">
-                            <h2 className='header-intro-heading-subtitle'>Heyy, I am</h2>
+                            <h2 className='header-intro-heading-subtitle'>Hey, I am</h2>
                             <h1 className='header-intro-heading-title'>{Introduction.Name}</h1>
                         </div>
 

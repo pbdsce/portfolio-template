@@ -9,22 +9,26 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.Edtitle{
+.Edtitle {
     color: white;
-    font-family: 'Nunito',sans-serif;
-    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
     max-width: 900px;
     width: 100%;
     margin: 2rem auto;
     padding: 0 2rem;
-    font-size: xx-large;
+    font-size: 2rem;
 }
 
 .logoobj {
     height: 5em;
     width: 5em;
     border-radius: 100%;
-    background: linear-gradient(40deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.444));
+    background: linear-gradient(
+        40deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.444)
+    );
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -62,14 +66,14 @@
 
 .insttenure {
     color: white;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
     .educationcontainer {
         width: 90%;
     }
@@ -84,7 +88,7 @@
         margin-right: 0.3;
     }
     .instname {
-        font-size:smaller;
+        font-size: smaller;
     }
     .instcourse {
         font-size: small;
@@ -99,21 +103,19 @@
         height: 90%;
     }
 }
-@media only screen and (max-width: 768px) and (min-width:426px){
+@media only screen and (max-width: 768px) and (min-width: 426px) {
     .instname {
         font-size: larger;
     }
-
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) {
     .instname {
         font-size: x-small;
     }
-    .insttenure{
+    .insttenure {
         font-size: 5px;
     }
-    .instcourse{
+    .instcourse {
         font-size: x-small;
     }
-
 }

@@ -1,92 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-a{
-    color:inherit;
+a {
+    color: inherit;
 }
-.header-wrapper{
+.header-wrapper {
     width: 100%;
     overflow: hidden;
     position: relative;
     z-index: 1;
     margin-top: 60px;
 }
-.header-section{
+.header-section {
     max-width: 900px;
-    width: 100%;  
-    position: relative;  
-    padding:0 2rem 2rem;
-    margin:0 auto 2rem;
+    width: 100%;
+    position: relative;
+    padding: 0 2rem 2rem;
+    margin: 0 auto 2rem;
 }
 
-.eclipse{
-    position: absolute;  
+.eclipse {
+    position: absolute;
 }
-.eclipse:first-child{
-    top:5%;
+.eclipse:first-child {
+    top: 5%;
     height: 140px;
     right: 7%;
 }
-.eclipse:nth-child(2){
-    bottom:10%;
-    left:-1%;
+.eclipse:nth-child(2) {
+    bottom: 10%;
+    left: -1%;
 }
 
-.header-container{
+.header-container {
     position: relative;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    gap:3rem;
-    padding:3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 4rem;
     width: 100%;
     margin: 2.5rem auto;
     background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.363) 0%, rgba(255, 255, 255, 0.363) 35%, rgba(108, 105, 105, 0.363) 100%);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.363) 0%,
+        rgba(255, 255, 255, 0.363) 35%,
+        rgba(108, 105, 105, 0.363) 100%
+    );
     backdrop-filter: blur(17px);
     border-radius: 30px;
 }
 
-
-
-.header-intro{
-    color:#fff;
+.header-intro {
+    color: #fff;
 }
 
-.header-intro-heading{
-    font-family: 'Philosopher', sans-serif;
+.header-intro-heading {
     line-height: 2.5rem;
 }
 
-.header-intro-heading-subtitle{
-    font-size:1rem;
+.header-intro-heading-subtitle {
+    font-size: 1rem;
 }
-.header-intro-heading-title{
-    font-size:3rem;
+.header-intro-heading-title {
+    font-size: 3rem;
 }
 
-
-
-.header-intro-role{
-    margin:1rem 0;
+.header-intro-role {
+    margin: 1rem 0;
     display: inline-block;
-    border-radius:20px;
-    padding:.3rem .6rem;
-    background: rgba(85, 84, 84, 0.55) ;
+    border-radius: 20px;
+    padding: 0.3rem 0.6rem;
+    background: rgba(85, 84, 84, 0.55);
 }
-.header-intro-desc{
-    font-family: 'Philosopher',sans-serif;
+.header-intro-desc {
     max-width: 400px;
-    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
 }
 
-.header-intro-desc p{
-    font-size:1.2rem;
+.header-intro-desc p {
+    font-size: 1.2rem;
 }
 
-.header-intro-resume{
+.header-intro-resume {
     display: inline-block;
-    padding:.2rem .5rem;
-    font-size: .9rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.9rem;
     border-radius: 15px;
     border: 2px solid white;
     -webkit-box-shadow: -2px 1px 6px 0px rgba(0, 0, 0, 0.75);
@@ -94,56 +91,56 @@ a{
     box-shadow: -3px 3px 6px 0px rgba(0, 0, 0, 0.217);
     transition: all 150ms ease-in;
 }
-.header-intro-resume:hover{
+.header-intro-resume:hover {
     transform: translateY(-2px);
     background-color: white;
-    color:#00BA4D;
+    color: #00ba4d;
 }
 
-.header-assets{
+.header-assets {
     display: flex;
-    gap:1.5rem;
+    gap: 1.5rem;
     flex-direction: column;
 }
-.header-image{
-    border-radius:50%;
+.header-image {
+    border-radius: 50%;
     height: 220px;
-    width:220px;     
+    width: 220px;
     overflow: hidden;
-    outline:2px solid #00BA4D;
-    outline-offset:3px;
+    outline: 2px solid #00ba4d;
+    outline-offset: 3px;
 }
-.header-image-img{
-    border-radius:50%;
-    object-fit:  cover;
+.header-image-img {
+    border-radius: 50%;
+    object-fit: cover;
     height: 100%;
     width: 100%;
 }
-.header-socials{
+.header-socials {
     display: flex;
     justify-content: center;
-    gap:1rem;
+    gap: 1rem;
     align-items: center;
 }
-.social-links{
+.social-links {
     transition: all 120ms;
     height: 30px;
 }
-.social-links:hover{
+.social-links:hover {
     transform: scale(1.1);
 }
 
 /* ==================== RESPONSIVE ++++++++++++++++++++++ */
-@media screen and (max-width:600px) {
-    .header-container{
+@media screen and (max-width: 600px) {
+    .header-container {
         flex-direction: column-reverse;
-        gap:1rem;
+        gap: 1rem;
     }
- 
-    .eclipse:first-child{
-        right:10%;
+
+    .eclipse:first-child {
+        right: 10%;
     }
-    .eclipse:nth-child(2){
-        bottom:8%;
+    .eclipse:nth-child(2) {
+        bottom: 8%;
     }
 }

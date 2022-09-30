@@ -1,136 +1,126 @@
-body {background-color:  #1d2026;
-    background-size:cover;}
-    
-    .skillcontainer{margin-top:'5px';
-        margin-left:'4px';
-         float:'center';
-         z-index: 1;
-         padding:2%;
-    
-         
-      }
-      .parentContainer
-      {}
+body {
+    background-color: #1d2026;
+    background-size: cover;
+}
+.skill-container {
+    max-width: 900px;
+    position: relative;
+    margin: 5rem auto;
+}
+.skillcontainer {
+    margin-top: '5px';
+    margin-left: '4px';
+    float: 'center';
+    z-index: 1;
+    padding: 2%;
+}
+.parentContainer {
+}
 
-    
-      .imagecontainer{
-        display: flex;
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
-    width:7.5rem;;
-    height:7.5rem;
-    border: 1.6px solid rgba(255, 255, 255, 0.22);border-radius: 15px;
+.imagecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 5.5rem;
+    height: 5.5rem;
+    padding: 1rem;
+    border: 1.6px solid rgba(255, 255, 255, 0.22);
+    border-radius: 15px;
     backdrop-filter: blur(15px);
     box-shadow: 0 2px 10px rgb(0 0 0 / 10%), 0 10px 15px rgb(0 0 0 / 20%);
-    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.07));
-    
-        
-      
-      }
-    
-    
-    
-    .unit {  
-      width: 100%;
-      justify-content:center;
-      display:flex;
-      flex-wrap: wrap;
-    
-      
-    }
-    
-    .title{
-      color: white;
-      font-size:1.2 rem;
-      text-align:match-parent;
-      font-style: italic;
-      font-family: Nunito;
-      z-index: 3;
-     
-    }
-    
-    
-    .img{
-      height:'3px';
-      width:'3px';
-    }
-    
-    .heading{
-      color: white;
-      font-size:35px;
-      
-      margin-left:60px;
-      margin-top:40px;
-       font-family:'nunito';
-       font-weight: 600;
-       z-index: 1;
-    }
-    
-    
-    .box1 {
-      width: 17vw;
-      height: 17vw;
-     bottom:60px;
-     left:10px;
-      position:absolute;
-      /* this is your border*/
-      outline: 10px solid;
-      outline-color: #00BA4D;
-      outline-offset: 15px;
-      /**/
-      overflow: hidden;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      transform: rotate(45deg);
-     
-    }
-    
-    .box1::before {
-      content: "";
-      display: block;
-      width: 141%;
-      height: 141%;
-      flex-shrink:0;
-      background: center/cover;
-      background-image: inherit;
-      transform: rotate(-45deg);
-      
-    }
-    
-    .box2 {
-      width: 17vw;
-      height: 17vw;
-      right:60px;
-      top:50px;
-      position:absolute;
-      /* this is your border*/
-      outline: 10px solid;
-      outline-color: #00BA4D;
-      outline-offset: 15px;
-      /**/
-      overflow: hidden;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      transform: rotate(45deg);
-     
-    }
-    
-    .box2::before {
-      content: "";
-      display: block;
-      width: 141%;
-      height: 141%;
-      flex-shrink:0;
-      background: center/cover;
-      background-image: inherit;
-      transform: rotate(-45deg);
-      
-    }
-    
-    
-    
-    
-    
+    background-image: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.25),
+        rgba(255, 255, 255, 0.07)
+    );
+}
+
+.unit {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-title {
+    color: white;
+    font-size: 1 rem;
+    text-align: match-parent;
+    font-family: Nunito;
+    z-index: 3;
+    text-align: center;
+    padding-top: 9%;
+}
+
+.img {
+    height: '3px';
+    width: '3px';
+}
+
+.heading {
+    color: white;
+    font-size: 2rem;
+
+    margin-left: 2rem;
+    font-family: 'nunito';
+    z-index: 1;
+}
+
+.box1 {
+    width: 250px;
+    height: 250px;
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+    /* this is your border*/
+    outline: 10px solid;
+    outline-color: #00ba4d;
+    outline-offset: 15px;
+    /**/
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+}
+
+.box1::before {
+    content: '';
+    display: block;
+    width: 141%;
+    height: 141%;
+    flex-shrink: 0;
+    background: center/cover;
+    background-image: inherit;
+    transform: rotate(-45deg);
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+    right: 60px;
+    top: 50px;
+    position: absolute;
+    /* this is your border*/
+    outline: 10px solid;
+    outline-color: #00ba4d;
+    outline-offset: 15px;
+    /**/
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+}
+
+.box2::before {
+    content: '';
+    display: block;
+    width: 141%;
+    height: 141%;
+    flex-shrink: 0;
+    background: center/cover;
+    background-image: inherit;
+    transform: rotate(-45deg);
+}
