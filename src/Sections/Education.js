@@ -7,6 +7,7 @@ const Education = () => {
   return (
     // Education&&
     <>
+    <div className='Edtitle'>Education</div>
     {Education.map((data)=><EducationComp schlname={data.College} field = {data.Field} tenure={data.Duration}/>)}
     </>
   )
