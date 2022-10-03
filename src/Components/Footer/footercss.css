@@ -31,6 +31,17 @@
 .socialicons {
     margin: 0 1rem;
 }
+.copyright {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+}
+.pb {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+#ic {
+    font-size: 30px;
+}
 .copyrightandlinks {
     display: flex;
     flex-direction: row;
