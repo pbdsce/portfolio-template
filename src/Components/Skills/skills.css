@@ -9,10 +9,7 @@ background-size:cover;}
 
      
   }
-  .parentContainer{
-    
-  }
-
+ 
 
   .imagecontainer{
     display: flex;
@@ -99,6 +96,7 @@ background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.25), rgba(255, 2
   background-image: inherit;
   transform: rotate(-45deg);
   
+  
 }
 
 .box2 {
@@ -117,6 +115,7 @@ background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.25), rgba(255, 2
   align-items: center;
   justify-content: center;
   transform: rotate(45deg);
+  
  
 }
 

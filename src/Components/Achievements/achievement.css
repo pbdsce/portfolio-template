@@ -1,0 +1,125 @@
+.exp-section-wrapper{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom:5rem;
+    }
+    
+    .exp-section {
+        max-width: 900px;
+        width: 100%;
+        color: white;
+        margin:2rem auto;
+        padding: 2rem;
+        position: relative;
+    }
+    
+    
+    .triangle {
+        position: absolute;
+        height: 350px;
+    }
+    .triangle:first-child{
+        top: 15%;
+        right:-10%;
+    }
+    .triangle:nth-child(2){
+        bottom:1rem;
+        left:-10%;
+        transform: rotate(-50deg);
+    }
+    
+    .adjust-triangle{
+        top:10rem;
+    }
+    
+    .exp-section-heading {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .exp-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:.5rem;
+    }
+    
+    .exp-box {
+        padding: 2rem;
+        width: 100%;
+        margin: 2.5rem 0 0;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.363) 0%, rgba(255, 255, 255, 0.363) 35%, rgba(108, 105, 105, 0.363) 100%);
+        backdrop-filter: blur(10px);
+        box-shadow: #000;
+        box-shadow: -2px 9px 15px 0px rgba(0, 0, 0, 0.68);
+        -webkit-box-shadow: -2px 9px 15px 0px rgba(0, 0, 0, 0.68);
+        -moz-box-shadow: -2px 9px 15px 0px rgba(0, 0, 0, 0.68);
+        border-radius: 30px;
+    }
+    
+    .exp-head {
+    
+        justify-content: space-between;
+        /* justify-items: space-between; */
+        align-items: baseline;
+    }
+    
+    .exp-box-heading {
+        font-size: 1.6rem;
+        margin: 0 0 1rem;
+        font-weight: 300;
+    }
+    
+    .heading {
+        font-weight: 500;
+    }
+    
+    .heading-company-name{
+        font-weight: 400;
+    }
+    
+    .exp-heading-date {
+        font-size:1.1rem;
+        font-weight:300;
+    }
+    
+    .exp-box-desc {
+        font-size: 1.2rem;
+        padding:1rem 5rem 1rem 0;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    
+    /* ============================== RESPONSIVE =========================== */
+    @media screen and (max-width:600px) {
+        .exp-section{
+            padding:0 2rem;
+            width: 100%;
+        }
+        .triangle:first-child{
+            right:-80%;
+            top:10%;
+        }
+        .triangle:nth-child(2){
+            left:-50%;
+        }
+        .exp-head{
+            flex-direction: column;
+            align-items:flex-start;
+            margin-bottom: 2rem;
+        }    
+        .exp-box-heading{
+            margin: 0 0 2px;
+        }
+        .exp-box-desc{
+            padding:0;
+            font-weight: 300;
+        }
+        
+    }
+    

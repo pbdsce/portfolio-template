@@ -36,8 +36,7 @@ const Header = () => {
                             <p>{Introduction.Bio}</p>
                         </div>
 
-                        <a target="_blank" rel = "noreferrer" href={Introduction.ResumeLink}  download className='header-intro-resume'>Resume</a>
-
+                        
                     </div>
 
                     <div className='header-assets'>
