@@ -4,11 +4,11 @@ import ExperienceBox from './Achievements/ExperienceBox';
 import data from '../data.json';
 import './Achievements/achievement.css';
 
-const Achievements = () => {
-  const {Achievements} = data;
-  return (
+const Achievements = ({Achievements}) => {
+
+  return ( 
     Achievements &&
-    <div className='exp-section-wrapper'>
+    <div id = "achievements" className='exp-section-wrapper'>
       <section className='exp-section' id ="experience">
         <img src={triangle} className = "triangle" alt="triangle" />
         <img src={triangle} className = {`triangle ${Achievements.length===1?"adjust-triangle":""}`} alt="triangle" />
