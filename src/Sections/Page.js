@@ -19,7 +19,7 @@ const Page = () => {
 
     const getName = (d) => {
         const email = d["Introduction"]["EmailLink"].split("@")[0]
-        if(email==name)
+        if(email===name)
         return d
     }
 
