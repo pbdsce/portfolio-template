@@ -2,9 +2,9 @@ import React from 'react'
 import data from '../data.json'
 import './Skills/Skills.css'
 
-const Skills = () => {
+const Skills = ({Skills}) => {
     return (
-        <div className='skill-container'>
+        <div id = "skills" className='skill-container'>
             <div className='heading'>Skills</div>
             <br />
             <div className='box2' />
@@ -18,8 +18,8 @@ const Skills = () => {
     )
 }
 
-const TitleComponent = () => {
-    const Skills = data.Skills
+const TitleComponent = ({children}) => {
+    const Skills = children
 
     return Skills.map((record, i) => (
         <div className='skillcontainer'>

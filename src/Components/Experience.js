@@ -4,8 +4,7 @@ import ExperienceBox from './Experience/ExperienceBox';
 import data from '../data.json';
 import './Experience/experience.css';
 
-const Experience = () => {
-  const {Experience} = data;
+const Experience = ({Experience}) => {
   return (
     Experience &&
     <div className='exp-section-wrapper'>

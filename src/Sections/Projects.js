@@ -3,10 +3,9 @@ import Project from './Project/Project'
 import data from '../data.json'
 import rectangle from '../assets/rectangle.png'
 import './Project/Project.css'
-const Projects = () => {
-    const projects = data.Projects
+const Projects = ({projects}) => {
     return (
-        <>
+        <section id = "projects">
             {projects && (
                 <div className='project-wrapper'>
                     <div className='Project-Title'>
@@ -35,7 +34,7 @@ const Projects = () => {
                     </div>
                 </div>
             )}
-        </>
+        </section>
     )
 }
 

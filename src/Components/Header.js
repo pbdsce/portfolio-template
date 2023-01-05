@@ -1,15 +1,12 @@
 import React from 'react'
 import './Header/header.css'
-import data from '../data.json'
 import ellipse from '../assets/Ellipse.png'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 import discord from '../assets/discord.png'
 import Navbar from './Navbar'
 
-const Header = () => {
-
-    const { Introduction } = data;
+const Header = ({ Introduction }) => {
 
     return (
         Introduction &&
@@ -17,7 +14,7 @@ const Header = () => {
         <Navbar name ={Introduction.Name} />
         <div className='header-wrapper'>
 
-            <section className='header-section'>
+            <section id = "main" className='header-section'>
 
                 <img src={ellipse} alt="" className="eclipse" />
                 <img src={ellipse} alt="" className="eclipse" />
@@ -30,14 +27,13 @@ const Header = () => {
                             <h1 className='header-intro-heading-title'>{Introduction.Name}</h1>
                         </div>
 
-                        <a href ='/' className='header-intro-role'>{Introduction.Role}</a>
+                        <a href ='#' className='header-intro-role'>{Introduction.Role}</a>
 
                         <div className="header-intro-desc">
                             <p>{Introduction.Bio}</p>
                         </div>
 
-                        <a target="_blank" rel = "noreferrer" href={Introduction.ResumeLink}  download className='header-intro-resume'>Resume</a>
-
+                        
                     </div>
 
                     <div className='header-assets'>
