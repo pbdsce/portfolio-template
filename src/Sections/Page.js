@@ -9,6 +9,10 @@ import data from '../data.json'
 import { useParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useState } from 'react'
+import file1 from '../profiles/akash.json'
+import file2 from '../profiles/shreyas.json'
+let arr=[file1,file2];
+
 const Page = () => {
     const { name } = useParams()
     const [profile,setProfile] = useState(null)
@@ -18,10 +22,11 @@ const Page = () => {
     }, [])
 
     const getName = (d) => {
-        const email = d["Introduction"]["EmailLink"].split("@")[0]
-        if(email==name)
+        const github = d["Introduction"]["GitHubLink"].split("https://github.com/")[1]
+        if(github==name)
         return d
     }
+  
 
     return (
         profile&&
