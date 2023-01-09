@@ -9,9 +9,7 @@ import data from '../data.json'
 import { useParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useState } from 'react'
-import file1 from '../profiles/akash.json'
-import file2 from '../profiles/shreyas.json'
-let arr=[file1,file2];
+
 
 const Page = () => {
     const { name } = useParams()
