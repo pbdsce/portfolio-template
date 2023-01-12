@@ -8,6 +8,7 @@ const Project = ({ data }) => {
                 </div>
                 <label className='title'>{data.Title}</label>
                 <p className='desc'>{data.Description}</p>
+                <a href={data.ProjectLink} className='desc' style={{textAlign:"center",marginTop:"1vw" ,textDecorationLine:" underline"}}>Project Link</a>
             </div>
         </>
     )

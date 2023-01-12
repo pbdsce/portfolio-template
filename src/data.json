@@ -6,7 +6,6 @@
             "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
             "ImageLink": "https://media.istockphoto.com/photos/the-dark-knight-picture-id458603411?k=20&m=458603411&s=612x612&w=0&h=FPUeTxLiNyUeQzxCphesL2QaL6yngA3v43d-YQ-3Brg=",
             "LinkedInLink": "https://www.google.com",
-            "EmailLink": "akashsharma2002@gmail.com",
             "GitHubLink": "https://github.com/akash"
         },
         "Education": [
@@ -140,30 +139,31 @@
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
         ],
-        "Names": [
-            "Akash",
-            "Sharma"
-        ],
+        
         "Projects": [
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                "ProjectLink":"www.google.com"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                "ProjectLink":"www.google.com"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                "ProjectLink":"www.google.com"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
+                "ProjectLink":"www.google.com"
             }
         ],
         "Achievements": [
@@ -187,7 +187,6 @@
             "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
             "ImageLink": "https://media.istockphoto.com/photos/the-dark-knight-picture-id458603411?k=20&m=458603411&s=612x612&w=0&h=FPUeTxLiNyUeQzxCphesL2QaL6yngA3v43d-YQ-3Brg=",
             "LinkedInLink": "https://www.google.com",
-            "EmailLink": "shreyas123@gmail.com",
             "GitHubLink": "https://github.com/shreyas"
             
         },
@@ -322,30 +321,31 @@
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
         ],
-        "Names": [
-            "Shreyas",
-            "abc"
-        ],
+       
         "Projects": [
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                "ProjectLink":"https://github.com/shreyas/NewConfigParser"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                "ProjectLink":"https://github.com/shreyas/NewConfigParser"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                "ProjectLink":"https://github.com/shreyas/NewConfigParser"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
+                "ProjectLink":"https://github.com/shreyas/NewConfigParser"
             }
         ],
         "Achievements": [
