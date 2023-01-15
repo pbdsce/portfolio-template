@@ -1,7 +1,7 @@
 import React from 'react'
 import triangle from '../assets/triangle.png';
 import ExperienceBox from './Experience/ExperienceBox';
-import data from '../data.json';
+// import data from '../data.json';
 import './Experience/experience.css';
 
 const Experience = ({Experience}) => {

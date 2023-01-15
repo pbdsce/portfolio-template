@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from './Project/Project'
-import data from '../data.json'
+// import data from '../data.json'
 import rectangle from '../assets/rectangle.png'
 import './Project/Project.css'
 const Projects = ({projects}) => {

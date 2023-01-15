@@ -1,6 +1,6 @@
 import React from 'react'
 import EducationComp from './Education/EducationComp';
-import data from "../data.json"
+// import data from "../data.json"
 
 const Education = ({Education}) => {
   return (

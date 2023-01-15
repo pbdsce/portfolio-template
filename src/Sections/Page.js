@@ -17,11 +17,11 @@ const Page = () => {
     useEffect(() => {
         const info = data.find(getName)
         setProfile(info)
-    }, [])
+    }, [name])
 
     const getName = (d) => {
         const github = d["Introduction"]["GitHubLink"].split("https://github.com/")[1]
-        if(github==name)
+        if(github===name)
         return d
     }
   
