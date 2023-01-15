@@ -1,0 +1,38 @@
+{
+	"Introduction": {
+		"Name": "",
+		"Role": "",
+		"Bio": "",
+		"ImageLink": "",
+		"LinkedInLink": "https://www.linkedin.com/in/",
+		"GitHubLink": "https://www.github.com/"
+	},
+	"Education": [{
+		"College": "Dayananda Sagar College Of Engineering",
+		"Field": "",
+		"Duration": ""
+	}],
+	"Skills": [{
+		"id": "1",
+		"skill": "",
+		"icon": "",
+		"isVisible": true
+	}],
+	"Experience": [{
+		"CompanyName": "",
+		"Role": "",
+		"Duration": "",
+		"Description": ""
+	}],
+	"Projects": [{
+		"Title": "",
+		"ImageLink": "",
+		"ProjectLink": "",
+		"Description": ""
+	}],
+	"Achievements": [{
+		"Achievement": "",
+		"Duration": "",
+		"Description": ""
+	}]
+}
