@@ -5,6 +5,7 @@ import Redirect from './Sections/Redirect'
 
 import MonthlyAchievements from './Sections/MonthlyAchievements'
 import { BrowserRouter as Router, Route,Routes, Switch,Link } from 'react-router-dom';
+
 const App = () => {
     // const Names = data.Names
     // var collegeName = data.Education[0].College
@@ -12,7 +13,7 @@ const App = () => {
     return (
         <>
       <Routes>
-        <Route path="/" element= {<Redirect />}></Route>
+        <Route path="/" ></Route>
         <Route path="/:name" element= {<Page/>}></Route>
         <Route path="/monthlyAchievements" element= {<MonthlyAchievements/>}></Route>
     </Routes>
