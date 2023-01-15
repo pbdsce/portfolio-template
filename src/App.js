@@ -13,7 +13,7 @@ const App = () => {
     return (
         <>
       <Routes>
-        <Route path="/" ></Route>
+        <Route path="/" element ={<Redirect />}></Route>
         <Route path="/:name" element= {<Page/>}></Route>
         <Route path="/monthlyAchievements" element= {<MonthlyAchievements/>}></Route>
     </Routes>
