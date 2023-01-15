@@ -20,7 +20,7 @@ const Page = () => {
     }, [name])
 
     const getName = (d) => {
-        const github = d["Introduction"]["GitHubLink"].split("https://github.com/")[1]
+        const github = d["Introduction"]["GitHubLink"].split("https://www.github.com/")[1]
         if(github===name)
         return d
     }

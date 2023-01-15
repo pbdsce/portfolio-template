@@ -1,12 +1,192 @@
 [
     {
         "Introduction": {
+            "Name": "Pratik Singh",
+            "Role": "DevOps and Software Engineer",
+            "Bio": "DevOps and Go Developer. Intrested in DevOps and Cloud. Always a Problem Solver",
+            "ImageLink": "https://photos.app.goo.gl/ryqDiNc3CgNvXYEA9",
+            "LinkedInLink": "https://www.linkedin.com/in/kitarp29",
+            "GitHubLink": "https://www.github.com/kitarp29"
+        },
+        "Education": [
+            {
+                "College": "Dayananda Sagar College Of Engineering",
+                "Field": "Electronics and Communications Engineering",
+                "Duration": "2019-2023"
+            }
+        ],
+        "Skills": [
+            {
+                "id": "1",
+                "skill": "Golang",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "2",
+                "skill": "Kubernetes",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "3",
+                "skill": "Docker",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "4",
+                "skill": "ArgoCD",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "5",
+                "skill": "AWS",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "6",
+                "skill": "Google Cloud",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "7",
+                "skill": "Python",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "8",
+                "skill": "JavaScript",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "9",
+                "skill": "HTML",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "10",
+                "skill": "SQL",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "11",
+                "skill": "MongoDB",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "12",
+                "skill": "NodeJS",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "13",
+                "skill": "Ansible",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "14",
+                "skill": "Terraform",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "15",
+                "skill": "C++",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "16",
+                "skill": "Linux",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "17",
+                "skill": "Git",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "18",
+                "skill": "Linux",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "19",
+                "skill": "Istio",
+                "icon": "",
+                "isVisible": true
+            },
+            {
+                "id": "20",
+                "skill": "REST APIs",
+                "icon": "",
+                "isVisible": true
+            }
+        ],
+        "Experience": [
+            {
+                "CompanyName": "Lethical.AI",
+                "Role": "Web Developer",
+                "Duration": "Jan 2021- Mar 2021",
+                "Description": "I was the Back-End Intern for the Company. I applied my knowledge of NodeJS, Express, and MongoDB.These were my main responsibilities as the intern - Made an API that authenticates the user via an API key, tracks the usage per user, and also on one other aspect. It took input from the user, validates it before processing, and generates the results. I learned a lot about REST APIs, AWS API gateways, and Lambda Functions. Developed the backend of the site. It included the user Authentication, email forwarding system. Also had the User dashboard based on the API mentioned earlier. I had to coordinate with the Front end team. Deployed the site on AWS and propagated it on the assigned Domain we had. Got the SSL certificate for OAUTH2.0 to work on the site."
+            },
+            {
+                "CompanyName": "Juspay",
+                "Role": "Product Engineer",
+                "Duration": "Aug 2021- Feb 2022",
+                "Description": " I have learned Kubernetes, Docker, AWS, and different tools like Prometheus, ELK stack, Grafana, Fluentd, Telegraf, etc at work. Developed dashboards to track employee usage of IT resources like AWS, GCP, Prometheus, Grafana, ELK stack, Kibana, Redis, and others. Developed using Golang and Postgresql. Management was able to track/revoke manually and automatically. Helped to secure the Production server using AWS WAF. My analysis and custom rules helped the organization to reduce the traffic on the Load balancer by 45%"
+            },
+            {
+                "CompanyName": "GitHub",
+                "Role": "Software Developer Intern",
+                "Duration": "Jan 2022- April 2022",
+                "Description": "I was the Github extern selected for the organization Chaosnative (now Harness). It is an open Source program. I contributed to LitmusChaos ( https://litmuschaos.io/ ), which is a CNCF Incubation Project. I worked on controlling and monitoring Choas Operations on Kubernetes Cluster. Developed modules in Golang to interact with any Kubernetes cluster."
+            },
+            {
+                "CompanyName": "Hackerrank",
+                "Role": "Software Developer Intern",
+                "Duration": "July 2022- December 2022",
+                "Description": "Working with the Platforms team. Creating microservices in Golang on AWS Lambda, increased code coverage by 8%. Upgraded several languages to the latest version. Enabled a few coding languages for all the questions on Hackerrank."
+            }
+        ],
+        "Projects": [
+            {
+                "Title": "Kube-ez",
+                "ImageLink": "https://raw.githubusercontent.com/kitarp29/kube-ez/main/golang.jpeg",
+                "ProjectLink": "https://github.com/kitarp29/kube-ez",
+                "Description": "This is a simple k8s-api project. It is built on Golang and utilises the client-go library to interact with Kubernetes Cluster. It is a plug and play solution and can be used to create a k8s-api server."
+            }
+        ],
+        "Achievements": [
+            {
+                "Achievement": "Linux Foundation Scholar",
+                "Duration": "Jun 2021- Jun 2022",
+                "Description": "LiFT ScholarLiFT Scholar. Issued by The Linux Foundation · Jun 2021. The Linux Foundation has awarded me the LiFT Scholarship in the category of Open Source Newbie. I will be taking the Essentials of Linux System Administration (LFS201) Course and completing the Linux Foundation Certified System Administrator (LFCS) Exam later this year.I was among the 49 applicants around the globe, who got this scholarship. This course will train me on how to use and implement Linux functions. Obtaining the certification will need me to put my skills to the test and validate my knowledge in a monitored, timed exam. Link: https://www.linuxfoundation.org/diversity-inclusivity/lift-scholarship-2021-recipients/"
+            }
+        ]
+    },
+    {
+        "Introduction": {
             "Name": "Akash",
             "Role": "Frontend Dev",
             "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
             "ImageLink": "https://media.istockphoto.com/photos/the-dark-knight-picture-id458603411?k=20&m=458603411&s=612x612&w=0&h=FPUeTxLiNyUeQzxCphesL2QaL6yngA3v43d-YQ-3Brg=",
             "LinkedInLink": "https://www.google.com",
-            "GitHubLink": "https://github.com/akash"
+            "GitHubLink": "https://www.github.com/akash"
         },
         "Education": [
             {
@@ -139,31 +319,30 @@
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
         ],
-        
         "Projects": [
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-                "ProjectLink":"www.google.com"
+                "ProjectLink": "www.google.com"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-                "ProjectLink":"www.google.com"
+                "ProjectLink": "www.google.com"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-                "ProjectLink":"www.google.com"
+                "ProjectLink": "www.google.com"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
-                "ProjectLink":"www.google.com"
+                "ProjectLink": "www.google.com"
             }
         ],
         "Achievements": [
@@ -178,7 +357,6 @@
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
         ]
-     
     },
     {
         "Introduction": {
@@ -187,8 +365,7 @@
             "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
             "ImageLink": "https://media.istockphoto.com/photos/the-dark-knight-picture-id458603411?k=20&m=458603411&s=612x612&w=0&h=FPUeTxLiNyUeQzxCphesL2QaL6yngA3v43d-YQ-3Brg=",
             "LinkedInLink": "https://www.google.com",
-            "GitHubLink": "https://github.com/shreyas"
-            
+            "GitHubLink": "https://www.github.com/shreyas"
         },
         "Education": [
             {
@@ -321,31 +498,30 @@
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
         ],
-       
         "Projects": [
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-                "ProjectLink":"https://github.com/shreyas/NewConfigParser"
+                "ProjectLink": "https://github.com/shreyas/NewConfigParser"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-                "ProjectLink":"https://github.com/shreyas/NewConfigParser"
+                "ProjectLink": "https://github.com/shreyas/NewConfigParser"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-                "ProjectLink":"https://github.com/shreyas/NewConfigParser"
+                "ProjectLink": "https://github.com/shreyas/NewConfigParser"
             },
             {
                 "Title": "Anubix",
                 "ImageLink": "https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-computer-flat-multi-color-icon-png-image_315746.jpg",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
-                "ProjectLink":"https://github.com/shreyas/NewConfigParser"
+                "ProjectLink": "https://github.com/shreyas/NewConfigParser"
             }
         ],
         "Achievements": [
@@ -360,6 +536,5 @@
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
         ]
-        
     }
 ]
