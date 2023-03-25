@@ -3,7 +3,7 @@ name: Validate JSONs
 on: 
   push:
     paths:
-      "src/data.json"
+      - "src/data.json"
 
 jobs:
   verify-json-validation:
