@@ -1,25 +1,38 @@
-name: Validate JSON Syntax
-  env:
-    VALIDATED: true
+name: Validate JSON
 
 on:
   push:
-    branches:
-      - main
     paths:
-      - 'src/data.json'
+      - "src/data.json"
 
 jobs:
-  verify-json-validation:
+  validate-json:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_SCHEMA: src/schema.json
-          INPUT_JSONS: src/data.json
+      - name: Checkout Code
+        uses: actions/checkout@v2
 
-      - name: Fail workflow on validation error
-        if: ${{ failure() }}
-        run: exit 1
+      - name: Install jsonschema
+        run: pip install jsonschema
+
+      - name: Validate JSON
+        run: |
+          JSON_FILE=src/data.json
+          SCHEMA_FILE=src/schema.json
+          JSON_SCHEMA=$(cat $SCHEMA_FILE)
+          JSON_DATA=$(cat $JSON_FILE)
+          python -c "import jsonschema; jsonschema.validate(json.loads('$JSON_DATA'), json.loads('$JSON_SCHEMA'))"
+
+      - name: Set output
+        if: ${{ job.status == 'success' }}
+        run: echo "JSON file is valid!"
+        shell: bash
+        env:
+          VALIDATED: "true"
+
+      - name: Set output
+        if: ${{ job.status != 'success' }}
+        run: echo "JSON file is not valid!"
+        shell: bash
+        env:
+          VALIDATED: "false"
