@@ -25,10 +25,11 @@
             },
          
             {
-                "abc": "4",
+                "id": "4",
                 "skill": "ArgoCD",
                 "icon": "",
-                "isVisible": true
+                "isVisible": true,
+                "new_property": "This property is not defined in the schema"
             },
             {
                 "id": "5",
