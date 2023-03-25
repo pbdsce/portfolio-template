@@ -28,7 +28,8 @@
             "format": "uri"
           }
         },
-        "required": ["Name", "Role", "Bio", "ImageLink", "LinkedInLink", "GitHubLink"]
+        "required": ["Name", "Role", "Bio", "ImageLink", "LinkedInLink", "GitHubLink"],
+        "additionalProperties": false
       },
       "Education": {
         "type": "array",
@@ -45,7 +46,8 @@
               "type": "string"
             }
           },
-          "required": ["College", "Field", "Duration"]
+          "required": ["College", "Field", "Duration"],
+          "additionalProperties": false
         }
       },
       "Skills": {
@@ -66,7 +68,8 @@
               "type": "boolean"
             }
           },
-          "required": ["id", "skill", "icon", "isVisible"]
+          "required": ["id", "skill", "icon", "isVisible"],
+          "additionalProperties": false
         }
       },
       "Experience": {
@@ -87,7 +90,8 @@
               "type": "string"
             }
           },
-          "required": ["CompanyName", "Role", "Duration", "Description"]
+          "required": ["CompanyName", "Role", "Duration", "Description"],
+          "additionalProperties": false
         }
       },
       "Projects": {
@@ -108,7 +112,8 @@
               "type": "string"
             }
           },
-          "required": ["Title", "ImageLink", "ProjectLink", "Description"]
+          "required": ["Title", "ImageLink", "ProjectLink", "Description"],
+          "additionalProperties": false
         }
       },
       "Achievements": {
@@ -126,11 +131,13 @@
               "type": "string"
             }
           },
-          "required": ["Achievement", "Duration", "Description"]
+          "required": ["Achievement", "Duration", "Description"],
+          "additionalProperties": false
         }
       }
     }
 },
-    "required": ["Introduction", "Education", "Skills", "Experience", "Projects", "Achievements"]
+    "required": ["Introduction", "Education", "Skills", "Experience", "Projects", "Achievements"],
+    "additionalProperties": false
   }
   
