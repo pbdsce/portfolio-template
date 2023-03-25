@@ -1,0 +1,17 @@
+name: JSON Verifier
+
+on:
+  push:
+    paths:
+      - '/src/data.json'
+
+jobs:
+  verify_json:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Validate JSON file
+      uses: atlassian/gajira-json-schema@v1.1.0
+      with:
+        schemaFile: ./src/template-data.json
+        jsonFile: '/src/data.json'
