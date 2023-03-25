@@ -16,12 +16,7 @@
             }
         ],
         "Skills": [
-            {
-                "id": "1",
-                "skill": "Golang",
-                "icon": "",
-                "isVisible": true
-            },
+            
             {
                 "id": "2",
                 "skill": "Kubernetes",
