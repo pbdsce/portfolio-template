@@ -1,4 +1,6 @@
 name: Validate JSON Syntax
+  env:
+    VALIDATED: true
 
 on:
   push:
