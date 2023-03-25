@@ -3,7 +3,7 @@ name: JSON Verifier
 on:
   push:
     paths:
-      - '/src/data.json'
+      - './src/data.json'
 
 jobs:
   verify_json:
@@ -14,4 +14,4 @@ jobs:
       uses: atlassian/gajira-json-schema@v1.1.0
       with:
         schemaFile: ./src/template-data.json
-        jsonFile: '/src/data.json'
+        jsonFile: './src/data.json'
