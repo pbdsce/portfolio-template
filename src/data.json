@@ -29,7 +29,8 @@
                 "skill": "ArgoCD",
                 "icon": "",
                 "isVisible": true,
-                "new_property": "This property is not defined in the schema"
+                "new_property": "This property is not defined in the schema",
+                "new prop2" : "..."
             },
             {
                 "id": "5",
