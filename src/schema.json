@@ -56,7 +56,7 @@
           "type": "object",
           "properties": {
             "id": {
-              "type": "string"
+              "type": "integer"
             },
             "skill": {
               "type": "string"
