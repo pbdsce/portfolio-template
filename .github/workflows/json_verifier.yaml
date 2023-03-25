@@ -1,0 +1,27 @@
+name: Validate JSON Syntax
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Validate JSON syntax
+        uses: docker://python:3
+        with:
+          entrypoint: sh
+          args: -c "pip install jsonschema && jsonschema --instance src/data.json src/template-data.json"
+
+      - name: Fail workflow on validation error
+        if: ${{ failure() }}
+        run: exit 1
