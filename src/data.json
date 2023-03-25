@@ -12,8 +12,8 @@
             {
                 "College": "Dayananda Sagar College Of Engineering",
                 "Field": "Electronics and Communications Engineeringg",
-                "Duration":"2019-2022",
-                "Place":"Bangaloree"
+                "Duration":"2019-2022"
+               
                 
                 
             }
@@ -21,7 +21,7 @@
         "Skills": [
             
             {
-                "id": "abc",
+                "id": "2",
                 "skill": "Kubernetes",
                 "icon": "",
                 "isVisible": true
