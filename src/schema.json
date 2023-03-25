@@ -15,8 +15,7 @@
             "type": "string"
           },
           "ImageLink": {
-            "type": "string",
-            "format": "uri"
+            "type": "string"
           },
           "LinkedInLink": {
             "type": "string",
@@ -98,12 +97,10 @@
               "type": "string"
             },
             "ImageLink": {
-              "type": "string",
-              "format": "uri"
+              "type": "string"
             },
             "ProjectLink": {
-              "type": "string",
-              "format": "uri"
+              "type": "string"
             },
             "Description": {
               "type": "string"
