@@ -21,7 +21,7 @@
         "Skills": [
             
             {
-                "id": "2",
+                "id": "abc",
                 "skill": "Kubernetes",
                 "icon": "",
                 "isVisible": true
