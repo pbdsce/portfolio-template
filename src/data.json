@@ -12,8 +12,8 @@
             {
                 "College": "Dayananda Sagar College Of Engineering",
                 "Field": "Electronics and Communications Engineering",
-                "Duration": "2019-2023",
-                "Place":"Bangalore"
+                "Duration": "2019-2023"
+                
             }
         ],
         "Skills": [
@@ -29,9 +29,8 @@
                 "id": "4",
                 "skill": "ArgoCD",
                 "icon": "",
-                "isVisible": true,
-                "new_property": "This property is not defined in the schema",
-                "new prop2" : "..."
+                "isVisible": true
+                
             },
             {
                 "id": "5",
