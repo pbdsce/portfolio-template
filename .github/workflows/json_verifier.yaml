@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened, reopened]
     paths:
-        - "src/data.json"
+      - "src/data.json"
 
 jobs:
   verify-json-validation:
@@ -18,6 +18,18 @@ jobs:
           INPUT_JSONS: src/data.json
       - name: Merge Pull Request
         if: ${{ success() }}
-        uses: peter-evans/merge-pull-request@v3
+        uses: actions/github-script@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { context } = require("@actions/github");
+            const octokit = new Octokit();
+            const prNumber = context.payload.pull_request.number;
+            const mergeResponse = await octokit.pulls.merge({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+              merge_method: "squash",
+            });
+            console.log(`PR ${prNumber} merged successfully:`, mergeResponse);
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
