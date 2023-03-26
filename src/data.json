@@ -118,7 +118,8 @@
                 "id": "18",
                 "skill": "Linux",
                 "icon": "",
-                "isVisible": true
+                "isVisible": true,
+                "extra field":"test"
             },
             {
                 "id": "19",
