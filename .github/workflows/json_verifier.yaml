@@ -1,10 +1,10 @@
-name: Validate JSONs and Automerge
-
+name: Validate JSONs
+  
 on:
   pull_request:
     types: [opened, reopened]
     paths:
-      - "src/data.json"
+        - "src/data.json"
 
 jobs:
   verify-json-validation:
@@ -16,20 +16,4 @@ jobs:
         env:
           INPUT_SCHEMA: src/schema.json
           INPUT_JSONS: src/data.json
-      - name: Merge Pull Request
-        if: ${{ success() }}
-        uses: actions/github-script@v4
-        with:
-          script: |
-            const { context } = require("@actions/github");
-            const octokit = new Octokit();
-            const prNumber = context.payload.pull_request.number;
-            const mergeResponse = await octokit.pulls.merge({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: prNumber,
-              merge_method: "squash",
-            });
-            console.log(`PR ${prNumber} merged successfully:`, mergeResponse);
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
