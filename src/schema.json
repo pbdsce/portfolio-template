@@ -1,0 +1,143 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+      "Introduction": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string"
+          },
+          "Role": {
+            "type": "string"
+          },
+          "Bio": {
+            "type": "string"
+          },
+          "ImageLink": {
+            "type": "string"
+          },
+          "LinkedInLink": {
+            "type": "string",
+            "format": "uri"
+          },
+          "GitHubLink": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["Name", "Role", "Bio", "ImageLink", "LinkedInLink", "GitHubLink"],
+        "additionalProperties": false
+      },
+      "Education": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "College": {
+              "type": "string"
+            },
+            "Field": {
+              "type": "string"
+            },
+            "Duration": {
+              "type": "string"
+            }
+          },
+          "required": ["College", "Field", "Duration"],
+          "additionalProperties": false
+        }
+      },
+      "Skills": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "skill": {
+              "type": "string"
+            },
+            "icon": {
+              "type": "string"
+            },
+            "isVisible": {
+              "type": "boolean"
+            }
+          },
+          "required": ["id", "skill", "icon", "isVisible"],
+          "additionalProperties": false
+        }
+      },
+      "Experience": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "CompanyName": {
+              "type": "string"
+            },
+            "Role": {
+              "type": "string"
+            },
+            "Duration": {
+              "type": "string"
+            },
+            "Description": {
+              "type": "string"
+            }
+          },
+          "required": ["CompanyName", "Role", "Duration", "Description"],
+          "additionalProperties": false
+        }
+      },
+      "Projects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Title": {
+              "type": "string"
+            },
+            "ImageLink": {
+              "type": "string"
+            },
+            "ProjectLink": {
+              "type": "string"
+            },
+            "Description": {
+              "type": "string"
+            }
+          },
+          "required": ["Title", "ImageLink", "ProjectLink", "Description"],
+          "additionalProperties": false
+        }
+      },
+      "Achievements": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Achievement": {
+              "type": "string"
+            },
+            "Duration": {
+              "type": "string"
+            },
+            "Description": {
+              "type": "string"
+            }
+          },
+          "required": ["Achievement", "Duration", "Description"],
+          "additionalProperties": false
+        }
+      }
+    }
+},
+    "required": ["Introduction", "Education", "Skills", "Experience", "Projects", "Achievements"],
+    "additionalProperties": false
+  }
+  
