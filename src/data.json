@@ -12,9 +12,8 @@
             {
                 "College": "Dayananda Sagar College Of Engineering",
                 "Field": "Electronics and Communications Engineering",
-                "Duration":"2019-2022",
-                "Extra field":"..."
-            
+                "Duration":"2019-2022"
+               
 
                
                 
@@ -530,6 +529,7 @@
             {
                 "Achievement": "Hackathon winner",
                 "Duration": "Aug 2022 - Nov 2022",
+                "Place":"bangalore",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
         ]
