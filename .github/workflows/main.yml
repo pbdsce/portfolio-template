@@ -3,6 +3,10 @@ name: Validate JSONs
 on:
   pull_request:
     types: [opened, reopened]
+    
+    branches:
+      - main
+
     paths:
         - "src/data.json"
 
