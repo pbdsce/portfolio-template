@@ -1,5 +1,5 @@
-name: Validate JSONs
-  
+name: Validate JSONs and Automerge
+
 on:
   pull_request:
     types: [opened, reopened]
@@ -16,4 +16,8 @@ jobs:
         env:
           INPUT_SCHEMA: src/schema.json
           INPUT_JSONS: src/data.json
-
+      - name: Merge Pull Request
+        if: ${{ success() }}
+        uses: peter-evans/merge-pull-request@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
