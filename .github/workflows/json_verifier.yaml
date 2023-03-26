@@ -16,3 +16,4 @@ jobs:
         env:
           INPUT_SCHEMA: src/schema.json
           INPUT_JSONS: src/data.json
+
